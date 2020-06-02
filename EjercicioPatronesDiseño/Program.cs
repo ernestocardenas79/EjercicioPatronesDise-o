@@ -1,4 +1,5 @@
 ﻿using System;
+using InOut.v2_facade;
 
 namespace EjercicioPatronesDiseño
 {
@@ -6,7 +7,7 @@ namespace EjercicioPatronesDiseño
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            new IO().exec();
         }
     }
 }

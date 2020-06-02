@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioPatronesDiseño", "EjercicioPatronesDiseño.csproj", "{C7EA80B9-4355-462D-BA88-4F83D06DFFC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjercicioPatronesDiseño", "EjercicioPatronesDiseño\EjercicioPatronesDiseño.csproj", "{C7EA80B9-4355-462D-BA88-4F83D06DFFC9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IO", "IO\IO.csproj", "{16DF031B-E9C6-4E2B-ADC6-F2220AF8EB5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMarket", "SuperMarket\SuperMarket.csproj", "{E53723F6-A1C9-46E0-B26E-334F8005F990}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C7EA80B9-4355-462D-BA88-4F83D06DFFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7EA80B9-4355-462D-BA88-4F83D06DFFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7EA80B9-4355-462D-BA88-4F83D06DFFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16DF031B-E9C6-4E2B-ADC6-F2220AF8EB5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16DF031B-E9C6-4E2B-ADC6-F2220AF8EB5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16DF031B-E9C6-4E2B-ADC6-F2220AF8EB5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16DF031B-E9C6-4E2B-ADC6-F2220AF8EB5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53723F6-A1C9-46E0-B26E-334F8005F990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53723F6-A1C9-46E0-B26E-334F8005F990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53723F6-A1C9-46E0-B26E-334F8005F990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53723F6-A1C9-46E0-B26E-334F8005F990}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
