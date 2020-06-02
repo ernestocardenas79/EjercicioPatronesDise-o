@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SuperMarket.CountryConfigurations
+namespace SuperMarket
 {
     internal abstract class Menu
     {

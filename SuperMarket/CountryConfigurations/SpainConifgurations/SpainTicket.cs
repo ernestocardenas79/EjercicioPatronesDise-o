@@ -6,14 +6,14 @@ namespace SuperMarket.CountryConfigurations.SpainConifgurations
 {
     internal class SpainTicket : Ticket
     {
-        protected override void footer()
-        {
-            throw new NotImplementedException();
-        }
+        //protected override void footer()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        protected override void header()
-        {
-            throw new NotImplementedException();
-        }
+        //protected override void header()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
