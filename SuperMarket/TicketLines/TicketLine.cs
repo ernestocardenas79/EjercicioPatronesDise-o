@@ -11,7 +11,5 @@ namespace SuperMarket.TicketLines
             this.io = new IOFacade();
         }
 
-        internal void 
-
     }
 }

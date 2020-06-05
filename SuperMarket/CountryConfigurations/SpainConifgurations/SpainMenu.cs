@@ -1,4 +1,6 @@
 ﻿using InOut.v2_facade;
+using SuperMarket.CountryConfigurations.MenuOptions;
+using SuperMarket.MenuOptions;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,26 +9,12 @@ namespace SuperMarket.CountryConfigurations.SpainConifgurations
 {
     internal class SpainMenu : Menu
     {
-        public SpainMenu()
+        protected override void setOptions()
         {
-            var exit = true;
-            var io = new IOFacade();
-            do
-            {
-                io.print("1. Añadir linea de venta");
-                io.print("2. Añadir lista de anulación");
-                int option = io.readNumber("opción?");
-
-                switch (option)
-                {
-                    case 1:
-                        break;
-                    case 2:
-                        break;
-                    default:
-                        break;
-                }
-            } while (!exit);
+            menuOptions.Add(new SellOption());
+            menuOptions.Add(new RevertOption());
+            menuOptions.Add(new CancelOption());
+            menuOptions.Add(new RepetitionOption());
         }
     }
 }

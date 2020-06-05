@@ -6,12 +6,12 @@ namespace SuperMarket.CountryConfigurations.SpainConifgurations
 {
     internal class SpainFactory : Countryfactory
     {
-        public override Menu createMenu()
+        internal SpainFactory()
         {
-            return new SpainMenu();
+            this.menu = new SpainMenu();
         }
 
-        public override Ticket createTicket()
+        public override Ticket ticketBuilder()
         {
             return new SpainTicket();
         }

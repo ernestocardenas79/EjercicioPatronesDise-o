@@ -1,19 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using InOut.v1_bad;
+using SuperMarket.TicketLines;
 
 namespace SuperMarket.CountryConfigurations.MenuOptions
 {
     internal class CancelOption: MenuOption
     {
-        internal CancelOption(Ticket ticket):base(ticket)
+        internal CancelOption()
         {
-
+            title = "Cancelar Liena";
         }
 
-        protected override void execute()
+        public override void execute()
         {
-            this.ticket.cancel();
+            var line = io.readNumber("Especificar la linea a cancelar: ");
+            this.ticket.lines.Add(new CancellationLine(line));
         }
     }
 }

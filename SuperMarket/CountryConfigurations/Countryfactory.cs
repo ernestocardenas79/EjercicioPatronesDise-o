@@ -7,6 +7,8 @@ namespace SuperMarket.CountryConfigurations
 {
     internal abstract class Countryfactory
     {
+        protected Menu menu;
+
         private static Countryfactory countryFactory;
 
         public static Countryfactory getInstance() {
@@ -25,14 +27,11 @@ namespace SuperMarket.CountryConfigurations
             return countryFactory;
         }
 
-        protected Countryfactory()
-        {
-
+        public Menu getMenu() {
+            return this.menu;
         }
 
-        public abstract Menu createMenu();
-
-        public abstract Ticket createTicket();
+        public abstract Ticket ticketBuilder();
         
-    } 
+    }
 }

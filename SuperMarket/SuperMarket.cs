@@ -13,11 +13,11 @@ namespace SuperMarketConsole
 
         internal void open() {
             var countryFactory = Countryfactory.getInstance();
-            var menu = countryFactory.createMenu();
+            var menu = countryFactory.getMenu();
 
             do
             {
-                var ticket = countryFactory.createTicket();
+                var ticket = countryFactory.ticketBuilder();
                 menu.execute(ticket);
 
             } while (!exit);

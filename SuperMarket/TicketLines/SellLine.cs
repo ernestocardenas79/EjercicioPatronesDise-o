@@ -3,10 +3,9 @@ namespace SuperMarket.TicketLines
 {
     internal class SellLine: TicketLine
     {
-        internal SellLine()
+        internal SellLine(int product, int quantity)
         {
-            int product = io.readNumber("Codigo de Producto");
-            int quantity = io.readNumber("Cantidad :");
+
         }
     }
 }
